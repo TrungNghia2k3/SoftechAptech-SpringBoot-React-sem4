@@ -1,0 +1,40 @@
+.user-sidebar {
+  background-color: white;
+  padding: 15px;
+  height: 60vh;
+  position: sticky;
+  top: 0;
+  border-radius: 8px;
+
+  .list-group {
+    margin: 0;
+
+    .list-group-item {
+      background-color: transparent;
+      border: none;
+      padding: 10px 0;
+      font-size: 16px;
+
+      a {
+        color: #495057;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+
+        &:hover {
+          color: #007bff;
+        }
+
+        &.active {
+          color: #007bff;
+          font-weight: bold;
+        }
+
+        .icon {
+          margin-right: 10px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

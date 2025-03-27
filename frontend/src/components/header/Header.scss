@@ -1,0 +1,71 @@
+.navigation-bar {
+  font-size: 14px;
+}
+
+.brand-logo {
+  border-radius: 6px;
+}
+
+.search-form {
+  width: 100%;
+  max-width: 500px; // Limit the max width of the search form
+}
+
+.search-input {
+  flex: 1;
+  margin-right: 0.5rem;
+  font-size: 14px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  .user-info-icon {
+    margin-bottom: 4px;
+    margin-right: 4px;
+  }
+}
+
+.list-group-category {
+  padding: 0 1rem;
+  background-color: #f8f9fa;
+}
+
+.icons-container {
+  display: flex;
+  align-items: center; // Centers icons vertically
+
+  .heart-icon {
+    font-size: 1rem; // Adjust this size to match MiniCart
+    color: white; // Ensure color consistency with MiniCart
+    margin-top: 2px;
+    margin-right: 16px;
+  }
+}
+
+/* Responsive Adjustments */
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .search-form {
+    width: auto;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .search-form {
+    margin: 4px 0;
+  }
+
+  .user-info {
+    display: block;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+}

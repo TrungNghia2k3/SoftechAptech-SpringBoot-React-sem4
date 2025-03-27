@@ -1,0 +1,41 @@
+// ProductCard.scss
+
+.product-card {
+  .card-img {
+    height: 140px;
+    width: 140px;
+    margin: auto;
+    padding: 12px;
+  }
+
+  .card-title {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    padding: 4px;
+  }
+
+  .card-text-price {
+    font-size: 14px;
+    color: red;
+    text-align: center;
+    margin: 0px;
+  }
+
+  .card-text-sold {
+    font-size: 14px;
+    color: green;
+    text-align: center;
+  }
+
+  &:hover {
+    background-color: #f8f9fa; // Change the background color on hover
+    border-color: #ddd; // Optional: change the border color on hover
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  }
+
+  &.selected {
+    background-color: #f8f9fa;
+  }
+}

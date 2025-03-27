@@ -1,0 +1,72 @@
+.status-placed {
+  color: #d4af37 !important; /* Màu vàng gold, nổi bật trên nền trắng */
+  font-weight: bolder;
+}
+
+.status-shipped {
+  color: #007bff !important; /* Màu xanh dương đậm, rõ ràng hơn */
+  font-weight: bolder;
+}
+
+.status-delivered {
+  color: #28a745 !important; /* Màu xanh lá cây đậm */
+  font-weight: bolder;
+}
+
+.status-cancelled {
+  color: #dc3545 !important; /* Màu đỏ đậm */
+  font-weight: bolder;
+}
+
+.order-details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); // 2 cột
+  gap: 16px;
+}
+
+.order-products-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); // 2 cột
+  gap: 16px;
+}
+
+.product-details {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+.order-management-table {
+  // Make the table responsive
+  .table {
+    @media (max-width: 768px) {
+      thead {
+        display: none; // Hide the table header on smaller screens
+      }
+
+      tbody {
+        display: block;
+
+        tr {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 1rem;
+          border: 1px solid #ddd;
+          padding: 0.5rem;
+
+          td {
+            display: block;
+            text-align: right;
+
+            &:before {
+              content: attr(data-label);
+              float: left;
+              font-weight: bold;
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
+    }
+  }
+}

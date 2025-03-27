@@ -1,0 +1,82 @@
+.admin-sidebar {
+  background-color: #7258db; // Màu nền
+  height: 70vh; // Chiều cao 70% chiều cao viewport
+  padding: 20px;
+  border-radius: 16px;
+
+  .list-group-item {
+    background-color: transparent;
+    border: none;
+    padding: 10px 15px;
+
+    a {
+      color: #fff; // Màu chữ trắng
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      font-size: 1rem; // Cỡ chữ mặc định
+
+      &:hover {
+        color: #ffd55d; // Màu chữ khi hover
+      }
+
+      &.active {
+        font-weight: bold;
+        color: #ffd55d; // Màu chữ khi được chọn
+      }
+
+      .icon {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+/* Responsive Adjustments */
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .admin-sidebar {
+    height: 60vh; // Giảm chiều cao cho các màn hình nhỏ
+    padding: 15px;
+    border-radius: 12px; // Giảm border-radius
+  }
+
+  .admin-sidebar .list-group-item a {
+    font-size: 0.9rem; // Giảm cỡ chữ cho màn hình nhỏ
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .admin-sidebar {
+    padding: 10px;
+  }
+
+  .admin-sidebar .list-group-item a {
+    font-size: 0.8rem; // Giảm cỡ chữ cho các màn hình nhỏ hơn
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .admin-sidebar {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .admin-sidebar .list-group-item a {
+    font-size: 0.9rem; // Cỡ chữ cho thiết bị tablet
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .admin-sidebar {
+    padding: 20px;
+  }
+
+  .admin-sidebar .list-group-item a {
+    font-size: 1rem; // Cỡ chữ mặc định cho các màn hình lớn hơn
+  }
+}

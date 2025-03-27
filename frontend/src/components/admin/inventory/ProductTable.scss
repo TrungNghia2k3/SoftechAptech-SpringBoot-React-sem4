@@ -1,0 +1,23 @@
+.table-product-inventory-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+
+  .btn {
+    white-space: nowrap; /* Ngăn không cho chữ xuống dòng */
+    text-align: center; /* Căn giữa nội dung trong nút */
+  }
+
+  .btn-product-inventory {
+    display: flex;
+    gap: 0.5rem; /* Khoảng cách giữa các nút */
+  }
+
+  .table img {
+    max-width: 100%; /* Đảm bảo ảnh không bị phóng to quá mức */
+    height: auto; /* Giữ tỷ lệ khung hình của ảnh */
+  }
+
+  .table td {
+    vertical-align: middle; /* Căn giữa nội dung trong các ô */
+  }
+}

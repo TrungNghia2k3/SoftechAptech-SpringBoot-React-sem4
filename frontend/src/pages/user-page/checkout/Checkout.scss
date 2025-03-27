@@ -1,0 +1,17 @@
+.recheck-order {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Khoảng cách giữa các Card */
+}
+
+.card-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.card-img {
+  flex-shrink: 0;
+  margin-right: 16px;
+}

@@ -1,0 +1,37 @@
+.category-list {
+  text-align: left;
+  h6 {
+    margin-bottom: 10px;
+  }
+
+  .category-items {
+    font-size: 0.9em; /* Thu nhỏ chữ */
+    margin-left: 16px;
+    ul {
+      list-style-type: none; /* Loại bỏ dấu chấm đầu dòng */
+      padding: 0;
+      li {
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+.publisher-list {
+  text-align: left;
+  h6 {
+    margin-bottom: 10px;
+  }
+
+  .publisher-items {
+    font-size: 0.9em; /* Thu nhỏ chữ */
+    margin-left: 16px;
+    ul {
+      list-style-type: none; /* Loại bỏ dấu chấm đầu dòng */
+      padding: 0;
+      li {
+        margin-bottom: 5px;
+      }
+    }
+  }
+}

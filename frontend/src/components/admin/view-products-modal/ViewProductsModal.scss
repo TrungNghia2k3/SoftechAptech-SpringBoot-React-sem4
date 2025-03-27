@@ -1,0 +1,11 @@
+/* Optional: Custom CSS for responsiveness */
+@media (max-width: 768px) {
+  .modal-dialog {
+    max-width: 90%;
+    margin: 1.75rem auto;
+  }
+}
+
+.view-products-table-responsive {
+  overflow-x: auto;
+}

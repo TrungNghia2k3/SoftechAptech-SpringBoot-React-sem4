@@ -1,0 +1,29 @@
+.view-manufactures-modal {
+  .modal-body {
+    overflow-x: auto; /* Thêm thanh cuộn ngang nếu bảng quá rộng */
+  }
+
+  .table {
+    width: 100%; /* Đảm bảo bảng chiếm toàn bộ chiều rộng của modal */
+  }
+
+  .table th,
+  .table td {
+    white-space: nowrap; /* Ngăn không cho chữ xuống dòng trong ô bảng */
+    text-overflow: ellipsis; /* Hiển thị ba chấm nếu văn bản quá dài */
+    overflow: hidden; /* Ẩn phần văn bản vượt quá kích thước của ô bảng */
+  }
+
+  .table td {
+    vertical-align: middle; /* Căn giữa nội dung trong ô bảng */
+  }
+
+  .btn {
+    white-space: nowrap; /* Ngăn không cho chữ xuống dòng trong nút */
+  }
+
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end; /* Căn nút ở cuối modal */
+  }
+}

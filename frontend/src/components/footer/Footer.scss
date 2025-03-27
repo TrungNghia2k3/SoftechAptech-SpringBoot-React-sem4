@@ -1,0 +1,16 @@
+.footer-container {
+  background-color: #212529; // Dark background
+  color: white;
+  font-size: 14px; // Adjust font size if needed
+
+  .nav-link {
+    color: white; // Ensures the nav links are white
+    &:hover {
+      text-decoration: underline; // Adds underline on hover
+    }
+  }
+
+  .rounded {
+    border-radius: 6px; // Custom border radius for logo image
+  }
+}

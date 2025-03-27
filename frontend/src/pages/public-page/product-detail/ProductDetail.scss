@@ -1,0 +1,33 @@
+.thumbnail:hover {
+  border-color: blue;
+}
+
+.main-image {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.thumbnail {
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid transparent;
+  margin-top: 10px;
+}
+
+.thumbnail:hover {
+  border-color: #007bff;
+}
+
+.product-details {
+  margin-top: 1rem;
+}
+
+.wishlist-icon {
+  font-size: 2.5rem; /* Thay đổi kích thước của icon */
+  cursor: pointer; /* Thay đổi con trỏ khi hover qua icon */
+  margin: 0 1rem; /* Cân chỉnh khoảng cách giữa icon và phần tử xung quanh */
+}

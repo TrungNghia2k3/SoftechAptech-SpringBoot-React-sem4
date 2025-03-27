@@ -1,0 +1,107 @@
+// CarouselSlider.scss
+
+.carousel-slider {
+  background-color: white;
+  border: solid 1px #ddd;
+  border-radius: 4px;
+
+  .carousel-title {
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    h5 {
+      margin: 0;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .carousel-content {
+    .carousel-slide {
+      .card {
+        transition: transform 0.2s ease-in-out;
+
+        &:hover {
+          transform: translateY(-5px);
+        }
+
+        .carousel-img {
+          width: 128px;
+          height: 128px;
+          object-fit: cover;
+          margin: auto;
+          margin-top: 16px;
+        }
+
+        .carousel-title {
+          font-size: 14px;
+          font-weight: bold;
+          text-align: center;
+          color: black;
+        }
+
+        .carousel-price {
+          font-size: 14px;
+          color: red;
+          text-align: center;
+        }
+
+        .carousel-sold {
+          font-size: 14px;
+          color: green;
+          text-align: center;
+        }
+      }
+    }
+
+    .carousel-arrow-left,
+    .carousel-arrow-right {
+      cursor: pointer;
+      opacity: 0.7;
+      transition: opacity 0.2s ease-in-out;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      &[disabled] {
+        cursor: default;
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+// Responsive styles
+@media (max-width: 1200px) {
+  .carousel-slider .carousel-content .carousel-slide .card {
+    width: 180px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 992px) {
+  .carousel-slider .carousel-content .carousel-slide .card {
+    width: 160px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-slider .carousel-content .carousel-slide .card {
+    width: 140px;
+    height: 260px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-slider .carousel-content .carousel-slide .card {
+    width: 120px;
+    height: 240px;
+  }
+
+  .carousel-arrow-left,
+  .carousel-arrow-right {
+    display: none; // Hide arrows on smaller screens
+  }
+}

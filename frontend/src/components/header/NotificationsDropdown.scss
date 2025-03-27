@@ -1,0 +1,52 @@
+.notifications-dropdown-menu {
+  width: 286px;
+  max-height: 192px;
+  font-size: 0.9rem;
+  border-radius: 0.25rem; // Bo góc nhẹ
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); // Tạo bóng mờ
+}
+
+.notification-card {
+  display: flex;
+  align-items: center;
+  border: 0; // Loại bỏ viền mặc định
+  border-bottom: 1px solid #e9ecef; // Đường viền dưới để phân tách
+  background-color: #f8f9fa; // Màu nền nhẹ
+  border-radius: 0; // Không bo góc cho card
+  &:last-child {
+    border-bottom: none; // Loại bỏ viền dưới cùng
+  }
+}
+
+.notification-icon-left {
+  font-size: 1.6rem;
+  color: #007bff; // Đổi màu biểu tượng thành màu chủ đạo
+}
+
+.notification-content {
+  flex: 1;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.view-notification-button {
+  font-size: 0.9rem;
+}
+
+.notifications-dropdown {
+  .dropdown-toggle::after {
+    display: none;
+  }
+}
+
+.notification-icon {
+  font-size: 1rem; // Match the size with MiniCart
+  color: white; // Ensure color consistency
+  .notification-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    transform: translate(50%, -50%);
+    border-radius: 50%;
+  }
+}

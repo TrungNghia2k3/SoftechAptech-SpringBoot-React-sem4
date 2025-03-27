@@ -1,0 +1,71 @@
+.mini-cart {
+  position: relative;
+
+  .dropdown-toggle {
+    position: relative;
+  }
+
+  .cart-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    transform: translate(50%, -50%);
+    border-radius: 50%;
+  }
+
+  .cart-item {
+    padding: 0.5rem 0.75rem;
+
+    .cart-item-card {
+      display: flex;
+      align-items: center;
+      border: none;
+      transition: background-color 0.3s;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: #f0f0f0; // Đặt màu nền bạn muốn khi hover hoặc focus
+    }
+
+    .cart-item-img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      margin-right: 0.75rem;
+    }
+
+    .cart-item-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .cart-item-title {
+      font-size: 0.875rem; // Smaller font size for title
+      font-weight: bold;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 200px; // Giới hạn chiều rộng tối đa để xử lý dấu chấm lửng
+    }
+
+    .cart-item-quantity {
+      font-size: 0.75rem; // Smaller font size for quantity
+      color: #6c757d; // Grey color for quantity text
+      margin: 0;
+    }
+
+    .cart-item-price {
+      font-size: 0.875rem; // Same font size as title
+      color: #dc3545; // Red color for total price
+      margin: 0;
+    }
+  }
+
+  .view-cart-button {
+    margin-left: 8px;
+    font-size: 0.75rem;
+  }
+}
+
