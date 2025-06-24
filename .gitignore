@@ -2,6 +2,7 @@
 /backend/target/
 /backend/audio/
 /backend/images/
+/backend/src/main/resources/
 /backend/src/main/resources/application.yaml
 /backend/src/main/resources/messages.properties
 
