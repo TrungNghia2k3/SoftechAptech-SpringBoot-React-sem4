@@ -19,3 +19,6 @@ This microservice is responsible for:
 
 ## Build application
 `mvn clean package`
+
+/audio
+/image

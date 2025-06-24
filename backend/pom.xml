@@ -8,11 +8,11 @@
 		<version>3.2.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.devteria</groupId>
-	<artifactId>identity-service</artifactId>
-	<name>identity-service</name>
+	<groupId>com.ntn.ecommerce</groupId>
+	<artifactId>bookstore</artifactId>
+	<name>book store</name>
 	<version>0.0.1-SNAPSHOT</version>
-	<description>Identity service</description>
+	<description>Book Store</description>
 	<repositories>
 		<repository>
 			<id>joda-time</id>
@@ -194,10 +194,10 @@
 				</executions>
 				<configuration>
 					<excludes>
-						<exclude>com/devteria/identityservice/dto/**</exclude>
-						<exclude>com/devteria/identityservice/entity/**</exclude>
-						<exclude>com/devteria/identityservice/mapper/**</exclude>
-						<exclude>com/devteria/identityservice/configuration/**</exclude>
+						<exclude>com/ntn/bookstore/dto/**</exclude>
+						<exclude>com/ntn/bookstore/entity/**</exclude>
+						<exclude>com/ntn/bookstore/mapper/**</exclude>
+						<exclude>com/ntn/bookstore/configuration/**</exclude>
 					</excludes>
 				</configuration>
 			</plugin>
