@@ -2,6 +2,7 @@
 /backend/target/
 /backend/audio/
 /backend/images/
+/backend/src/main/resources/
 
 # Ignore frontend secrets and build artifacts
 /frontend/client-secret.json
