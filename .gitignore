@@ -1,7 +1,7 @@
 # Ignore backend build output
 /backend/target/
-/backend/audio/*
-/backend/images/*
+/backend/audio/
+/backend/images/
 
 # Ignore frontend secrets and build artifacts
 /frontend/client-secret.json
