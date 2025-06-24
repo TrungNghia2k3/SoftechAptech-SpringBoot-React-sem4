@@ -1,0 +1,48 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/identity_service"
+    driverClassName: "com.mysql.cj.jdbc.Driver"
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: chochohack254@gmail.com
+    password: ggwn ygmz xnxk nrdt
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+outbound:
+  identity:
+    client-id: "717110965142-vvo65i71osc992k0983lfbo7m73sg2ha.apps.googleusercontent.com"
+    client-secret: "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"
+    redirect-uri: "http://localhost:3000/authenticate"
+
+jwt:
+  signerKey: "1TjXchw5FloESb63Kc+DFhTARvpWL4jUGCwfGWxuG5SIf/1y/LgJxHnMqaF6A/ij"
+  valid-duration: 86400 # in second
+  refreshable-duration: 172800  # in seconds
+
+# TEST
+#  valid-duration: 20 # in second
+#  refreshable-duration: 120 # in seconds
+payment:
+  vnPay:
+    url: "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html"
+    tmnCode: "A3JJWFNP"
+    secretKey: "WUQTASIZSOFGK0EX5L9HREI0O7TF0DNX"
+    returnUrl: "http://localhost:3000/payment-callback"
+    version: "2.1.0"
+    command: "pay"
+    orderType: "other"

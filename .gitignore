@@ -1,3 +1,28 @@
-nimcache/
-nimblecache/
-htmldocs/
+# Ignore backend build output
+/backend/target/
+/backend/audio/
+/backend/images/
+
+# Ignore frontend secrets and build artifacts
+/frontend/client-secret.json
+/frontend/node_modules/
+/frontend/.vscode/
+/frontend/dist/
+/frontend/build/
+
+# Common IDE folders
+.idea/
+.vscode/
+
+# OS / tool specific
+.DS_Store
+Thumbs.db
+
+# Maven
+*.log
+*.class
+
+# Optional: Ignore npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
