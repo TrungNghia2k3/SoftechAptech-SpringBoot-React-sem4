@@ -25,20 +25,20 @@ This is a fullstack web application built with **Spring Boot** (Java) for the ba
 -🚛 GiaoHangNhanh (GHN) – Integrated for real-time shipping fee calculation based on location and weight
 
 ## 🚀 Main Features
--🔐 User registration and login
--🧑‍💼 User management (ADMIN & USER roles)
--🛍️ Product and category management
--🔎 Search and filter functionality
--🖼️ Image upload and preview
+- 🔐 User registration and login
+- 🧑‍💼 User management (ADMIN & USER roles)
+- 🛍️ Product and category management
+- 🔎 Search and filter functionality
+- 🖼️ Image upload and preview
 
 ## 👥 Customer Features
--🔔 View Notifications – Get notified about order updates and offers
--🚚 Order Tracking – Track your orders
--🛒 Manage Cart – Add, remove, or update products in your shopping cart
--💳 Checkout – Complete purchases with secure checkout process
+- 🔔 View Notifications – Get notified about order updates and offers
+- 🚚 Order Tracking – Track your orders
+- 🛒 Manage Cart – Add, remove, or update products in your shopping cart
+- 💳 Checkout – Complete purchases with secure checkout process
 
 ## 🛠️ Admin Features
--📦 Manage Orders – View and process customer orders
--🏭 Manage Manufacturers – Add or update manufacturer details
--🎟️ Manage Coupons – Create and manage discount codes
--💬 Manage Comments – Monitor and moderate customer feedback
+- 📦 Manage Orders – View and process customer orders
+- 🏭 Manage Manufacturers – Add or update manufacturer details
+- 🎟️ Manage Coupons – Create and manage discount codes
+- 💬 Manage Comments – Monitor and moderate customer feedback
