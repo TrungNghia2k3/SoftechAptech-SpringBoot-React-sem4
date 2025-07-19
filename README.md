@@ -2,7 +2,7 @@
 
 This is a fullstack web application built with **Spring Boot** (Java) for the backend and **ReactJS** (JavaScript) for the frontend. It was developed as a final project for academic purposes by a student at **Softech Aptech**.
 
-## 🧩 Frontend – ReactJS
+## 🌐 Frontend – ReactJS
 - Language: JavaScript (ES6+)
 - Library: [ReactJS](https://reactjs.org/)
 - Package Manager: npm

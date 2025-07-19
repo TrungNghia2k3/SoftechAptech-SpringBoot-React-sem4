@@ -5,6 +5,7 @@
 /backend/src/main/resources/
 /backend/src/main/resources/application.yaml
 /backend/src/main/resources/messages.properties
+/backend/.env
 
 # Ignore frontend secrets and build artifacts
 /frontend/client-secret.json
