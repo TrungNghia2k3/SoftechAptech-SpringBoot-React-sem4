@@ -13,6 +13,9 @@
 /frontend/.vscode/
 /frontend/dist/
 /frontend/build/
+/frontend/src/configurations/configuration.js
+/frontend/src/configurations/httpClient.js
+
 
 # Common IDE folders
 .idea/
